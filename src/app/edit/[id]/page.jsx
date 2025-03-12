@@ -15,6 +15,7 @@ const Page = () => {
   const [todo,setTodo] = useState({})
   // const params = useParams()
   // const id = params.id;
+  
   const {id} = useParams();
 
   useEffect(()=>{
